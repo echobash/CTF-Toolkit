@@ -1,4 +1,4 @@
-# 🛠️ CTT Toolkit - Common Errors/Online-Tools/Hotfixes/Handy Scripts
+# 🛠️ CTF Toolkit - Common Errors/Online-Tools/Hotfixes/Handy Scripts
 
 A comprehensive collection of developer tools, CTF resources, and handy scripts for cybersecurity professionals and developers.
 

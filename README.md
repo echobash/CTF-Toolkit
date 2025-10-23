@@ -2,29 +2,58 @@
 
 A comprehensive collection of developer tools, CTF resources, and handy scripts for cybersecurity professionals and developers.
 
-## 👥 Contributors
+## 📋 Table of Contents
 
-[![Contributors](https://img.shields.io/github/contributors/echobash/CTF-Toolkit.svg)](https://github.com/echobash/CTF-Toolkit/graphs/contributors)
-
-[![Contributors](https://contrib.rocks/image?repo=echobash/CTF-Toolkit)](https://github.com/echobash/CTF-Toolkit/graphs/contributors)
-
-**Thank you to all contributors who help make this project better!** 🎉
+- [Categories](#-categories)
+- [Installation & Setup](#-installation--setup)
+- [Contributing](#-contributing)
+- [Contributors](#-contributors)
+- [Star This Repository](#-star-this-repository)
 
 ## 📚 Categories
 
 | Category | Link | Description |
 |----------|------|-------------|
-| 🔧 **Installation Errors** | [Here](https://github.com/echobash/commonErrorsTricksAndHotfixes/tree/master/InstallationErrors) | Common installation issues and solutions |
-| 📜 **Useful Scripts** | [Here](https://github.com/echobash/commonErrorsTricksAndHotfixes/tree/master/UsefulScripts) | Handy automation scripts and utilities |
-| 🌐 **CTF Web** | [Here](https://github.com/echobash/commonErrorsTricksAndHotfixes/tree/master/CTF/web) | Web application security challenges |
-| 🔐 **CTF Crypto** | [Here](https://github.com/echobash/commonErrorsTricksAndHotfixes/tree/master/CTF/crypto) | Cryptographic challenges and solutions |
-| 🔍 **CTF Forensics** | [Here](https://github.com/echobash/commonErrorsTricksAndHotfixes/tree/master/CTF/forensics) | Digital forensics and file analysis |
-| 🕵️ **CTF OSINT** | [Here](https://github.com/echobash/commonErrorsTricksAndHotfixes/tree/master/CTF/osint) | Open source intelligence gathering |
-| 🖼️ **CTF Steganography** | [Here](https://github.com/echobash/commonErrorsTricksAndHotfixes/tree/master/CTF/stego) | Hidden data extraction techniques |
-| 💥 **CTF PWN** | [Here](https://github.com/echobash/commonErrorsTricksAndHotfixes/tree/master/CTF/pwn) | Binary exploitation and reverse engineering |
-| 🎯 **CTF Misc** | [Here](https://github.com/echobash/commonErrorsTricksAndHotfixes/tree/master/CTF/misc) | Miscellaneous challenges and tools |
+| 🔧 **Installation Errors** | [InstallationErrors/](InstallationErrors/) | Common installation issues and solutions |
+| 📜 **Useful Scripts** | [UsefulScripts/](UsefulScripts/) | Handy automation scripts and utilities |
+| 🌐 **CTF Web** | [CTF/web/](CTF/web/) | Web application security challenges |
+| 🔐 **CTF Crypto** | [CTF/crypto/](CTF/crypto/) | Cryptographic challenges and solutions |
+| 🔍 **CTF Forensics** | [CTF/forensics/](CTF/forensics/) | Digital forensics and file analysis |
+| 🕵️ **CTF OSINT** | [CTF/osint/](CTF/osint/) | Open source intelligence gathering |
+| 🖼️ **CTF Steganography** | [CTF/stego/](CTF/stego/) | Hidden data extraction techniques |
+| 💥 **CTF PWN** | [CTF/pwn/](CTF/pwn/) | Binary exploitation and reverse engineering |
+| 🎯 **CTF Misc** | [CTF/misc/](CTF/misc/) | Miscellaneous challenges and tools |
 
 ---
+
+## 🚀 Installation & Setup
+
+### Prerequisites
+- Git
+- Python 3.x (for Python scripts)
+- Bash (for shell scripts)
+
+### Getting Started
+1. **Clone the repository:**
+   ```bash
+   git clone https://github.com/echobash/CTF-Toolkit.git
+   cd CTF-Toolkit
+   ```
+
+2. **Explore the categories:**
+   - Browse through the different categories based on your needs
+   - Each category contains specific tools and resources
+   - Check individual README files in each category for detailed instructions
+
+3. **For Python scripts:**
+   ```bash
+   pip3 install -r requirements.txt  # if requirements.txt exists
+   ```
+
+4. **For shell scripts:**
+   ```bash
+   chmod +x *.sh  # make scripts executable
+   ```
 
 ## 🤝 Contributing
 
@@ -45,9 +74,15 @@ A comprehensive collection of developer tools, CTF resources, and handy scripts 
 - Fix broken links
 - Enhance tool descriptions
 
-### 👥 Contributors
+---
 
-Thank you to all contributors who help make this toolkit better! Your contributions are valuable to the cybersecurity community.
+## 👥 Contributors
+
+[![Contributors](https://img.shields.io/github/contributors/echobash/CTF-Toolkit.svg)](https://github.com/echobash/CTF-Toolkit/graphs/contributors)
+
+[![Contributors](https://contrib.rocks/image?repo=echobash/CTF-Toolkit)](https://github.com/echobash/CTF-Toolkit/graphs/contributors)
+
+**Thank you to all contributors who help make this project better!** 🎉
 
 ---
 

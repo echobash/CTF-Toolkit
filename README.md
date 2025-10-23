@@ -49,6 +49,9 @@ A comprehensive collection of developer tools, CTF resources, and handy scripts 
 
 Thank you to all contributors who help make this toolkit better! Your contributions are valuable to the cybersecurity community.
 
+**Notable Contributors:**
+- [@VedantAnand17](https://github.com/VedantAnand17) - Documentation improvements and repository structure enhancements
+
 ---
 
 ## ⭐ Star This Repository

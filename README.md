@@ -2,6 +2,14 @@
 
 A comprehensive collection of developer tools, CTF resources, and handy scripts for cybersecurity professionals and developers.
 
+## 👥 Contributors
+
+[![Contributors](https://img.shields.io/github/contributors/echobash/CTF-Toolkit.svg)](https://github.com/echobash/CTF-Toolkit/graphs/contributors)
+
+[![Contributors](https://contrib.rocks/image?repo=echobash/CTF-Toolkit)](https://github.com/echobash/CTF-Toolkit/graphs/contributors)
+
+**Thank you to all contributors who help make this project better!** 🎉
+
 ## 📚 Categories
 
 | Category | Link | Description |

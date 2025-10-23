@@ -4,12 +4,26 @@ A comprehensive collection of web security tools, scripts, and resources for CTF
 
 ## 📋 Table of Contents
 
+- [Online Web Resources](#-online-web-resources)
 - [Reconnaissance Tools](#-reconnaissance-tools)
 - [Exploitation Scripts](#-exploitation-scripts)
 - [Analysis Tools](#-analysis-tools)
 - [Bug Hunting Resources](#-bug-hunting-resources)
 - [Hash & Crypto Tools](#-hash--crypto-tools)
+- [MD5 Hash Collision Examples](#-md5-hash-collision-examples)
 - [Usage Examples](#-usage-examples)
+
+---
+
+## 🌐 Online Web Resources
+
+| Purpose | Resource Link |
+|---------|---------------|
+| Crack the Hashes from hashes stored in DB | [crackstation](https://crackstation.net/) |
+| JWT Decoding etc. | [jwt.io](https://jwt.io) |
+| JWK To PEM Convertor | [8gwifi](https://8gwifi.org/jwkconvertfunctions.jsp) |
+| JWK Generator | [mkjwk](https://mkjwk.org/) |
+| JS Deobfuscator | [Deobfuscate.io](https://deobfuscate.io/) |
 
 ---
 
@@ -95,6 +109,30 @@ A comprehensive collection of web security tools, scripts, and resources for CTF
 - **File**: `magicSha1`
 - **Purpose**: Pre-computed SHA1 hashes that collide with common passwords
 - **Usage**: Use these hashes to bypass authentication systems that use SHA1
+
+---
+
+## 🔐 MD5 Hash Collision Examples
+
+### Magic MD5 Collision Strings
+These two strings produce the same MD5 hash, demonstrating MD5 collision vulnerability:
+
+```
+String 1: TEXTCOLLBYfGiJUETHQ4hEcKSMd5zYpgqf1YRDhkmxHkhPWptrkoyz28wnI9V0aHeAuaKnak
+String 2: TEXTCOLLBYfGiJUETHQ4hAcKSMd5zYpgqf1YRDhkmxHkhPWptrkoyz28wnI9V0aHeAuaKnak
+```
+
+**MD5 Hash**: Both strings produce the same MD5 hash value
+
+### Usage
+- Use these strings to test MD5 collision detection in applications
+- Demonstrate MD5 vulnerability in CTF challenges
+- Educational purposes for understanding hash collision attacks
+
+### Security Implications
+- MD5 is cryptographically broken and should not be used for security purposes
+- These collisions can be exploited to bypass authentication systems
+- Always use stronger hash functions like SHA-256 or SHA-3
 
 ---
 
